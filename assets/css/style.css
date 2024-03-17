@@ -1,0 +1,447 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* global selector */
+a{
+     color: #fff;           
+    text-decoration: none;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* header section start */
+header{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    padding: 0px 125px;
+    justify-content: space-between;
+    display: flex;
+    background: #151F3C;
+}
+header ul li{
+    margin-right: 15px;
+    display: inline-block;
+}
+header ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+header ul li a.active{
+    color:#cf2e57;
+    
+}
+/* header section end */
+/* banner section start */
+.banner{
+    color: #fff;
+    width: 100%;
+    height: 800px;
+    padding: 0px 125px;
+    position: relative;
+    background-size:100% 100%;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../img/banner.jpg)
+}
+.banner h1{
+    font-size: 50px;
+    position: absolute;
+    top:100px;
+    font-weight: normal;
+    
+}
+.banner h2{
+    top: 230px;
+    font-size: 30px;
+    position:absolute;
+
+}
+.banner form{
+    width: 80%;
+    height: auto;
+    bottom: 30px;
+    display: flex;
+    padding: 2px 8px;
+   position: absolute;
+    background:#512b6b ;
+}
+.banner form button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    background:#341b46 ;
+}
+.banner form button.active{
+    background:#F62F44 ;
+}
+.banner form label{
+    display: none;
+}
+.banner .searchForm{
+    margin-top: 8px;
+}
+.banner form .searchForm input,
+.banner form .searchForm section{
+    height: 25px;
+    width: 170px;
+    margin-right: 5px;
+}
+.banner form button.smt{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left:100px ;
+    margin-top: 8px;
+    background: #F62F44;
+}
+.ticket-dass {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.ticket-dass option {
+    color: #333;
+}
+
+  /* banner section end */
+/* Fun section start */
+.fun{
+    width:100%;
+    height: auto;
+    color: #fff;
+    padding: 50px 125px;
+    background-size: 100% 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(../img/fun1.jpg);
+}
+.fun h2{
+    font-weight:normal;
+    text-align: center;
+    margin-bottom:40px ;
+}
+
+.fun p{
+    font-size: 12px;
+}
+.fun ul{
+    display: flex;
+    justify-content: space-between;
+}
+.fun ul li{
+    list-style: none;
+    width: 140px;
+    height: 120px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 50px;
+    background-size: cover ;
+    background:rgba(0,0,0,0.7);
+}
+/* Fun section end */
+/* Suscription section start */
+.suscription{
+    width: 100%;
+    height: 300px; 
+    color: #fff;
+    padding: 50px 125px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+                url(../img/news3.jpg);
+
+}
+.suscribe-items h2,
+.suscribe-items p {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    padding-left: 40%;
+  }
+
+.suscribe-items form input {
+    padding: 10px 120px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 40%;
+  }
+  
+.suscribe-items form button {
+    padding: 10px 70px;
+    margin-left: 20px;
+    padding-left: 30px;
+  }
+
+/* Suscription section end */
+/* Destination section start */
+.destination{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+    background: #191125;
+}
+.destination ul{
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    grid-template-rows: 400px 400px;
+    grid-gap: 20px;
+}
+.destination ul li{
+    list-style: none;
+    border-radius: 5px;     
+    text-align: center;
+    background: #fff;
+    border: solid #fff;
+}
+.destination ul li img{
+    width: 100%;
+    height:170px ;
+}
+.destination ul li div.content{
+    color: #000;
+    padding: 20px;
+}
+div.content span{
+    color: #F62F44;
+}
+/* Destination section end */
+/* Estimate section start */
+.estimate{
+    width: 100%;
+    height: 300px;
+    padding:  50px 125px;
+    position: relative;
+    background: #664BAD;
+    /* background:#FB8F06 ; */
+}
+
+.estimate label{
+    display: none;
+    padding:  5px;
+}
+.estimate img{
+    position: absolute; 
+    height: 350px ;
+    width:400px ;
+    right: 0;
+    bottom: 0;
+}
+
+.estimate .Calculator {
+    background: #e17c50;
+    border: 5px solid #e17c50;
+    height: 40px;
+    width: 12%;
+}
+.form input,#TravelPurpose
+ {
+  margin-right: 40px;
+  height: 35px;
+  width: 12%;
+}
+/*Estimate section end */
+/* Latest Blog section start */
+.Blog{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+    background: #fff;
+}
+.Blog h1,p{
+    text-align: center;
+}
+.blog-content{
+    /* because of this display img came in flex format */
+    display: flex;
+    margin: 10px auto;
+}
+.blog-content div{
+    /* because of this  flex img as well as content get in flex format */
+   display: flex;
+    padding: 10px;
+}
+.blog-content div div{
+    display: inline-block;
+}
+.blog-content div img{
+    width:200px ;
+    height: 250px; ;
+}
+/* Latest Blog section end */
+
+/* footer section start */
+footer{
+
+    width: 100%;
+    height: 440px;
+    padding:50px 125px; 
+    background-size:cover;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),
+               url(../img/footer.jpg);
+
+}
+ footer .topfoot{
+    display: flex;
+    justify-content: space-between;
+ }
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    color: #999;
+}
+footer ul li a span{
+    color: #fff;
+    font-weight: 500;
+}
+footer .internationalSites div {
+    display: flex;
+    justify-content: space-between;
+}
+.bottomfoot {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+footer .bottomfoot .footmenu ul li {
+    display: inline-block;
+    padding-left:10px ;
+}
+.footmenu p {
+    color: #918e97;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+.social{
+    margin-left:100px ;
+}
+footer .bottomfoot .social ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ 
+/* footer section start */
+
+/* media query section start */
+@media screen and (max-width: 1199px){
+    header,.banner,.fun,.suscription,
+    .destination,.estimate,.blog,footer,
+    .topfoot,.internationalSites,.bottomfoot{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .banner form .searchForm input,
+    .banner form .searchForm section{
+        width: 17%;
+    }
+    
+    .banner form button.smt{
+        margin-left: 0px;
+    }
+    .suscribe-items form input{
+        padding: 0;
+    }
+   
+    }
+
+@media screen and (max-width : 991px){
+    .suscription{
+        height: auto;
+    }
+    .fun ul li{
+        width: 110px;
+    }
+    .blog-content{
+        display: block;
+    }
+    .suscribe-items form input{
+        padding: 0;
+    }
+    footer{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+    header,.banner,.fun,.suscription,
+    .destination,.estimate,.blog,footer,
+    .topfoot,.internationalSites,.bottomfoot{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    header .nav{
+        display: none;
+    }
+    .banner form{
+        width: auto;
+        padding: 10px;
+        margin-left: 100px;
+        flex-direction: column;
+    }
+    .banner form .searchForm input,
+    .banner form .searchForm section{
+        display: block;
+        width: 100%;
+    }
+    .banner form button.smt{
+        border-radius:0px;
+        margin: 10px auto; 
+        width:280px;
+        height: 35px;
+    }
+    .banner form .searchForm .Passenger-info{
+        display: grid;
+    }
+
+    .fun h2{
+        margin-bottom: 10px;
+    }
+    .fun ul{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3,35%);
+        grid-template-rows: 150px 100px;
+        
+    }
+    .destination ul{
+        display: grid;
+        grid-template-columns: repeat(2,47%);
+        grid-template-rows: 400px 400px;
+        grid-gap: 15px;
+    }
+    
+    .estimate img {
+        position: absolute;
+        height: 298px;
+        width: 237px;
+        right: 0px;
+}
+    .estimate .form .Calculator{
+        display: block;
+    }
+}
+
+/* media query section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
