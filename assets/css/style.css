@@ -382,9 +382,9 @@ footer .bottomfoot .social ul li{
         display: none;
     }
     .banner form{
-        width: auto;
+        width: 60%;
         padding: 10px;
-        margin-left: 100px;
+        margin-left: 20px;
         flex-direction: column;
     }
     .banner form .searchForm input,
@@ -428,6 +428,45 @@ footer .bottomfoot .social ul li{
     .estimate .form .Calculator{
         display: block;
     }
+}
+
+@media screen and (max-width:575px){
+    .banner h1 {
+       top:10px;
+     
+       display: block;
+    } 
+    footer .topfoot{
+        width: auto;
+        display: block;
+    }
+    footer .internationalSites div{
+        display: block;
+    }
+    .banner form 
+    button.smt{
+        width: 100px;
+    }
+}
+@media screen and (max-width:405px){
+    .banner h1 {
+        top:10px;}
+    
+    .banner form{
+        width:50% ;
+        margin-left: 10px;
+
+    }
+    footer .topfoot {
+        width: auto;
+        display: block;
+}
+}
+@media screen and (max-width:392px){
+    .banner form{
+        width:50% ;
+        margin-left: 10px;
+    } 
 }
 
 /* media query section end */
